@@ -1,0 +1,1 @@
+jQuery(document).ready(function(d){var e=d("#sidebar-inner"),b=d(".post-content a:has(img)"),c=d(window),a=e.offset().top;b.phzoom({});c.scroll(function(){var f=c.scrollTop();if(f+20>=a){e.css({position:"fixed",top:20})}else{if(f+20<a){e.css({position:"static",top:""})}}})});
